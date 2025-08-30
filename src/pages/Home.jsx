@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import SideBar from '../components/home/SideBar';
-// import NavBar from '../components/home/NavBar';
+import NavBar from '../components/home/NavBar';
 // import Hero from '../components/home/Hero';
 // import { DarkModeContext } from '../context/DarkModeContext';
 // import About from '../components/home/About';
@@ -20,11 +20,11 @@ const Home = () => {
             <div className="relative z-10 flex flex-col md:flex-row gap-[10vh] md:gap-0 px-[5vw] py-[5vh] md:py-0">
                 <SideBar />
                 <div className="md:flex-1 md:ml-[26vw]">
-                    {/* <NavBar />
-                    <Hero />
-                    <Portfolio />
-                    <About />
-                    <Resume/> */}
+                    <NavBar />
+                    {/* <Hero /> */}
+                    {/* <Portfolio /> */}
+                    {/* <About /> */}
+                    {/* <Resume/> */}
                 </div>
             </div>
         </div>
