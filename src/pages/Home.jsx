@@ -2,14 +2,14 @@ import React, { useContext } from 'react';
 import SideBar from '../components/home/SideBar';
 import NavBar from '../components/home/NavBar';
 // import Hero from '../components/home/Hero';
-// import { DarkModeContext } from '../context/DarkModeContext';
+import { DarkModeContext } from '../context/DarkModeContext';
 // import About from '../components/home/About';
 // import Portfolio from '../components/home/Portfolio';
 // import Resume from '../components/home/Resume';
 
 const Home = () => {
 
-    // const { darkMode, setDarkMode } = useContext(DarkModeContext);
+    const { darkMode, setDarkMode } = useContext(DarkModeContext);
 
 
     return (

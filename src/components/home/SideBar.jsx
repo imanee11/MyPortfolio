@@ -2,13 +2,13 @@ import React, { useContext, useEffect } from 'react';
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
-// import { DarkModeContext } from '../../context/DarkModeContext';
+import { DarkModeContext } from '../../context/DarkModeContext';
 
 
 
 const SideBar = () => {
 
-    // const { darkMode, setDarkMode } = useContext(DarkModeContext);
+    const { darkMode, setDarkMode } = useContext(DarkModeContext);
 
 
     return (
