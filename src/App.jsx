@@ -1,11 +1,13 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-red-500">
-        Tailwind is working!
-      </h1>
+      <Routes>
+        {/* <Route path="/" element={<HomePage />} /> */}
+        {/* <Route path="/todo" element={<TodoPage />} /> */}
+      </Routes>
     </>
   );
 };
