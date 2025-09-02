@@ -3,7 +3,7 @@ import SideBar from '../components/home/SideBar';
 import NavBar from '../components/home/NavBar';
 import Hero from '../components/home/Hero';
 import { DarkModeContext } from '../context/DarkModeContext';
-// import About from '../components/home/About';
+import About from '../components/home/About';
 import Portfolio from '../components/home/Portfolio';
 // import Resume from '../components/home/Resume';
 
@@ -23,7 +23,7 @@ const Home = () => {
                     <NavBar />
                     <Hero />
                     <Portfolio />
-                    {/* <About /> */}
+                    <About />
                     {/* <Resume/> */}
                 </div>
             </div>
