@@ -2,10 +2,12 @@ import React, { useContext } from 'react';
 import SideBar from '../components/home/SideBar';
 import NavBar from '../components/home/NavBar';
 import Hero from '../components/home/Hero';
-import { DarkModeContext } from '../context/DarkModeContext';
 import About from '../components/home/About';
 import Portfolio from '../components/home/Portfolio';
-// import Resume from '../components/home/Resume';
+import Resume from '../components/home/Resume';
+
+
+import { DarkModeContext } from '../context/DarkModeContext';
 
 const Home = () => {
 
@@ -24,7 +26,7 @@ const Home = () => {
                     <Hero />
                     <Portfolio />
                     <About />
-                    {/* <Resume/> */}
+                    <Resume/>
                 </div>
             </div>
         </div>
