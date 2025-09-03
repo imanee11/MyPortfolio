@@ -8,6 +8,7 @@ import Resume from '../components/home/Resume';
 
 
 import { DarkModeContext } from '../context/DarkModeContext';
+import Contact from '../components/home/Contact';
 
 const Home = () => {
 
@@ -27,6 +28,7 @@ const Home = () => {
                     <Portfolio />
                     <About />
                     <Resume/>
+                    <Contact/>
                 </div>
             </div>
         </div>
