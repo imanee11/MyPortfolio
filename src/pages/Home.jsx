@@ -9,6 +9,7 @@ import Resume from '../components/home/Resume';
 
 import { DarkModeContext } from '../context/DarkModeContext';
 import Contact from '../components/home/Contact';
+import Footer from '../components/home/Footer';
 
 const Home = () => {
 
@@ -29,6 +30,7 @@ const Home = () => {
                     <About />
                     <Resume/>
                     <Contact/>
+                    <Footer/>
                 </div>
             </div>
         </div>

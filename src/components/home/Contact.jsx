@@ -60,13 +60,13 @@ const Contact = () => {
                 <div className='flex gap-x-4'>
                     <div className="hover:scale-105 flex items-center justify-center bg-transparent border-[1px] md:w-[11vw] w-[43vw] h-[19vh] p-6 rounded-3xl border-[#d1d5e0] hover:border-[#abb1c4] dark:border-[#303033] transition duration-300 cursor-pointer group">
                         <div className="flex flex-col justify-center items-center gap-2">
-                            <FaLinkedinIn className="md:text-[50px] text-[40px] text-[#abb1c4] group-hover:text-[#424550] transition duration-300" />
+                            <FaLinkedinIn className="md:text-[50px] text-[40px] text-[#abb1c4] dark:text-[#7a7a80] group-hover:text-[#424550] dark:group-hover:text-[#C7C6D3] transition duration-300" />
                         </div>
                     </div>
 
                     <div className="hover:scale-105 flex items-center justify-center bg-transparent border-[1px] md:w-[11vw] w-[43vw] h-[19vh] p-6 rounded-3xl border-[#d1d5e0] hover:border-[#abb1c4] dark:border-[#303033] transition duration-300 cursor-pointer group">
                         <div className="flex flex-col justify-center items-center gap-2">
-                            <FaGithub className="md:text-[50px] text-[40px] text-[#abb1c4] group-hover:text-[#424550] transition duration-300" />
+                            <FaGithub className="md:text-[50px] text-[40px] text-[#abb1c4] dark:text-[#7a7a80] group-hover:text-[#424550] dark:group-hover:text-[#C7C6D3] transition duration-300" />
                         </div>
                     </div>
                 </div>
@@ -81,18 +81,18 @@ const Contact = () => {
                 <div className='border-t border-[#d1d5e0] dark:border-[#303033]'>
                     <div className='py-10 flex flex-col md:flex-row gap-x-[10vw] gap-y-5'>
                         <div>
-                            <p className='text-[#22232C] font-bold'>Location</p>
-                            <p className='text-[#666A79]'>Casablanca, Morocco</p>
+                            <p className='text-[#22232C] dark:text-[#E9E9F1] font-bold'>Location</p>
+                            <p className='text-[#666A79] dark:text-[#A1A1AF] hover:dark:text-[#E9E9F1] transition duration-300 cursor-pointer'>Casablanca, Morocco</p>
                         </div>
 
                         <div>
-                            <p className='text-[#22232C] font-bold'>Phone</p>
-                            <p className='text-[#666A79]'>06 33 14 94 29</p>
+                            <p className='text-[#22232C] dark:text-[#E9E9F1] font-bold'>Phone</p>
+                            <p className='text-[#666A79] dark:text-[#A1A1AF] hover:dark:text-[#E9E9F1] transition duration-300 cursor-pointer'>06 33 14 94 29</p>
                         </div>
 
                         <div>
-                            <p className='text-[#22232C] font-bold'>Email</p>
-                            <p className='text-[#666A79]'>imaneelouannane@gmail.com</p>
+                            <p className='text-[#22232C] dark:text-[#E9E9F1] font-bold'>Email</p>
+                            <p className='text-[#666A79] dark:text-[#A1A1AF] hover:dark:text-[#E9E9F1] transition duration-300 cursor-pointer'>imaneelouannane@gmail.com</p>
                         </div>
                     </div>
                 </div>
