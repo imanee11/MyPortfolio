@@ -83,9 +83,11 @@ const NavBar = () => {
                     >
                         {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
                     </button>
-                    <button className="flex items-center gap-2 px-8 py-3 rounded-full bg-gradient-to-r from-[#aa70e0] to-[#7059e2] dark:from-[#E4B8BF] dark:to-[#CEC4EF] text-white dark:text-[#22232c] font-semibold hover:scale-105 transition-transform duration-300 shadow-md hover:opacity-90">
-                        Let's Talk! <BiMessageDots />
-                    </button>
+                    <a href="mailto:imaneelouannane@gmail.com">
+                        <button className="flex items-center gap-2 px-8 py-3 rounded-full bg-gradient-to-r from-[#aa70e0] to-[#7059e2] dark:from-[#E4B8BF] dark:to-[#CEC4EF] text-white dark:text-[#22232c] font-semibold hover:scale-105 transition-transform duration-300 shadow-md hover:opacity-90">
+                            Let's Talk! <BiMessageDots />
+                        </button>
+                    </a>
                 </div>
             </nav>
 

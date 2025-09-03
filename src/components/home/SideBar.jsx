@@ -37,15 +37,17 @@ const SideBar = () => {
             </div>
             <div className='flex gap-2 pt-2 mb-4'>
                 <div className='text-[#424550] dark:text-[#C7C6D3] border border-[#abb3c3] dark:border-[#4b4b51] w-10 h-10 flex items-center justify-center rounded-2xl hover:scale-105 transition-transform duration-300'>
-                    <a href=""><FaLinkedinIn /></a>
+                    <a href="https://www.linkedin.com/in/imane-el-ouannane/"><FaLinkedinIn /></a>
                 </div>
                 <div className='text-[#424550] dark:text-[#C7C6D3] border border-[#abb3c3] dark:border-[#4b4b51] w-10 h-10 flex items-center justify-center rounded-2xl hover:scale-105 transition-transform duration-300'>
-                    <a href=""><FaGithub /></a>
+                    <a href="https://github.com/imanee11"><FaGithub /></a>
                 </div>
             </div>
-            <button className="px-8 py-3 rounded-full bg-gradient-to-r from-[#aa70e0] to-[#7059e2] dark:bg-gradient-to-r dark:from-[#E4B8BF] dark:to-[#CEC4EF] text-[#E9E9F1] dark:text-[#22232c] font-semibold hover:scale-105 transition-transform duration-300 shadow-md hover:opacity-90">
-                Let's Work Together!
-            </button>
+            <a href="#contact">
+                <button className="px-8 py-3 rounded-full bg-gradient-to-r from-[#aa70e0] to-[#7059e2] dark:bg-gradient-to-r dark:from-[#E4B8BF] dark:to-[#CEC4EF] text-[#E9E9F1] dark:text-[#22232c] font-semibold hover:scale-105 transition-transform duration-300 shadow-md hover:opacity-90">
+                    Let's Work Together!
+                </button>
+            </a>
         </nav>
     );
 };

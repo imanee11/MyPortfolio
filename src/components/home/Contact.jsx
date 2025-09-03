@@ -60,13 +60,17 @@ const Contact = () => {
                 <div className='flex gap-x-4'>
                     <div className="hover:scale-105 flex items-center justify-center bg-transparent border-[1px] md:w-[11vw] w-[43vw] h-[19vh] p-6 rounded-3xl border-[#d1d5e0] hover:border-[#abb1c4] dark:border-[#303033] transition duration-300 cursor-pointer group">
                         <div className="flex flex-col justify-center items-center gap-2">
-                            <FaLinkedinIn className="md:text-[50px] text-[40px] text-[#abb1c4] dark:text-[#7a7a80] group-hover:text-[#424550] dark:group-hover:text-[#C7C6D3] transition duration-300" />
+                            <a href="https://www.linkedin.com/in/imane-el-ouannane/">
+                                <FaLinkedinIn className="md:text-[50px] text-[40px] text-[#abb1c4] dark:text-[#7a7a80] group-hover:text-[#424550] dark:group-hover:text-[#C7C6D3] transition duration-300" />
+                            </a>
                         </div>
                     </div>
 
                     <div className="hover:scale-105 flex items-center justify-center bg-transparent border-[1px] md:w-[11vw] w-[43vw] h-[19vh] p-6 rounded-3xl border-[#d1d5e0] hover:border-[#abb1c4] dark:border-[#303033] transition duration-300 cursor-pointer group">
                         <div className="flex flex-col justify-center items-center gap-2">
-                            <FaGithub className="md:text-[50px] text-[40px] text-[#abb1c4] dark:text-[#7a7a80] group-hover:text-[#424550] dark:group-hover:text-[#C7C6D3] transition duration-300" />
+                            <a href="https://github.com/imanee11">
+                                <FaGithub className="md:text-[50px] text-[40px] text-[#abb1c4] dark:text-[#7a7a80] group-hover:text-[#424550] dark:group-hover:text-[#C7C6D3] transition duration-300" />
+                            </a>
                         </div>
                     </div>
                 </div>
