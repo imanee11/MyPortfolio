@@ -31,7 +31,6 @@ const Hero = () => {
                             spinDuration={20}
                             className="custom-class"
                         />
-
                     </div>
                 </div>
             </div>
