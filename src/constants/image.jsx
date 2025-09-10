@@ -30,6 +30,8 @@ import yummy5 from "../assets/images/yummy/yummy5.jpeg";
 import mor from "../assets/images/morocco.jpeg";
 import mor2 from "../assets/images/morocco2.jpeg";
 
+import pfp from "../assets/images/pfp.jpg"
+
 export default {
     fashe,
     fashe2,
@@ -57,4 +59,5 @@ export default {
     yummy5,
     mor,
     mor2,
+    pfp,
 };
