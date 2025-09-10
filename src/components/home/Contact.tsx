@@ -206,12 +206,16 @@ const Contact = () => {
 
                     <div>
                         <p className='text-[#22232C] dark:text-[#E9E9F1] font-bold'>Phone</p>
-                        <p className='text-[#666A79] dark:text-[#A1A1AF] hover:dark:text-[#E9E9F1] transition duration-300 cursor-pointer'>06 33 14 94 29</p>
+                        <a href="tel:+212633149429">
+                            <p className='text-[#666A79] dark:text-[#A1A1AF] hover:dark:text-[#E9E9F1] transition duration-300 cursor-pointer'>06 33 14 94 29</p>
+                        </a>
                     </div>
 
                     <div>
                         <p className='text-[#22232C] dark:text-[#E9E9F1] font-bold'>Email</p>
-                        <p className='text-[#666A79] dark:text-[#A1A1AF] hover:dark:text-[#E9E9F1] transition duration-300 cursor-pointer'>imaneelouannane@gmail.com</p>
+                        <a href="mailto:imaneelouannane@gmail.com">
+                            <p className='text-[#666A79] dark:text-[#A1A1AF] hover:dark:text-[#E9E9F1] transition duration-300 cursor-pointer'>imaneelouannane@gmail.com</p>
+                        </a>
                     </div>
                 </div>
             </div>
