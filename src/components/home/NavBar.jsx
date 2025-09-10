@@ -16,9 +16,11 @@ const NavBar = () => {
 
     useEffect(() => {
         if (darkMode) {
-            document.body.classList.add('dark', 'bg-[#111111]');
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('bg-[#111111]');
         } else {
-            document.body.classList.remove('dark', 'bg-[#111111]');
+            document.documentElement.classList.remove('dark');
+            document.body.classList.remove('bg-[#111111]');
         }
     }, [darkMode]);
 
