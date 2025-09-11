@@ -2,36 +2,48 @@
   {
     "id": 1,
     "title": "Fashe",
+    "date" : 2024,
+    "for" : "Training Project",
     "images": ["fashe", "fashe2", "fashe3", "fashe4", "fashe5", "fashe6", "fashe7"],
     "tools": ["HTML", "React JS", "JavaScript", "Tailwind CSS"]
   },
     {
     "id": 2,
     "title": "Task Manager",
+    "for" : "Personal Project",
+    "date" : 2025,
     "images": ["task", "task2", "task3", "task4"],
     "tools": ["HTML", "Laravel", "Tailwind CSS", "Breeze"]
   },
     {
     "id": 3,
     "title": "Yummy",
+    "for" : "Training Project",
+    "date" : 2025,
     "images": ["yummy", "yummy2", "yummy3", "yummy4", "yummy5"],
     "tools": ["HTML", "SASS", "JavaScript", "Bootstrap"]
   },
   {
     "id": 4,
     "title": "Restaurant",
+    "for" : "Training Project",
+    "date" : 2024,
     "images": ["restaurant", "restaurant2", "restaurant3", "restaurant4", "restaurant5"],
     "tools": ["HTML", "SASS", "Bootstrap", "CSS"]
   },
   {
     "id": 5,
     "title": "Imane Portfolio",
+    "for" : "Client Project",
+    "date" : 2025,
     "images": ["imane", "imane2", "imane3"],
     "tools": ["HTML", "React JS", "Tailwind CSS"]
   },
   {
     "id": 6,
     "title": "Morocco",
+    "for" : "Personal Project",
+    "date" : 2023,
     "images": ["mor", "mor2"],
     "tools": ["HTML", "CSS"]
   }
