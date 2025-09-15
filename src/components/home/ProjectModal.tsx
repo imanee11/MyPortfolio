@@ -127,11 +127,10 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
                                         <button
                                             key={index}
                                             onClick={() => setCurrentImageIndex(index)}
-                                            className={`w-2 h-2 rounded-full transition-colors ${
-                                                index === currentImageIndex
-                                                    ? 'bg-white'
-                                                    : 'bg-white/50'
-                                            }`}
+                                            className={`w-2 h-2 rounded-full transition-colors ${index === currentImageIndex
+                                                ? 'bg-white'
+                                                : 'bg-white/50'
+                                                }`}
                                         />
                                     ))}
                                 </div>
@@ -142,7 +141,16 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
                     {/* Details Section */}
                     <div className="bg-[#141414] w-[90vw] sm:w-[50vw] p-4 sm:p-5 rounded-2xl sm:rounded-3xl">
                         <div className="space-y-3">
-                            <p className="text-[#FFFFFF] text-[20px] sm:text-[24px] font-bold">{project.title}</p>
+                            <div className='flex items-center gap-4 text-[#FFFFFF]'>
+                                <p className="text-[#FFFFFF] text-[20px] sm:text-[24px] font-bold">{project.title}</p>
+                                <div className='text-[12px] flex gap-2 bg-clip-text text-transparent bg-gradient-light dark:bg-gradient-dark'>
+                                    (
+                                    <span>{project.for}</span>
+                                    <span>•</span>
+                                    <span>{project.date}</span>
+                                    )
+                                </div>
+                            </div>
 
                             {/* Technologies */}
                             <div className="flex flex-wrap gap-2">

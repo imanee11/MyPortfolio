@@ -5,8 +5,8 @@
     "date": 2024,
     "for": "Training Project",
     "description": "A stylish e-commerce platform designed to offer a seamless shopping experience with a clean and modern user interface.",
-    "live": "jj",
-    "github": "hsgsgsh",
+    "live": "#",
+    "github": "https://github.com/imanee11/final-project-react-Imane-El-Ouannnae",
     "images": ["fashe", "fashe2", "fashe3", "fashe4", "fashe5", "fashe6", "fashe7"],
     "tools": ["HTML", "React JS", "JavaScript", "Tailwind CSS"],
     "features": [
@@ -25,7 +25,7 @@
     "date": 2025,
     "description": "A full-stack task management application that helps users organize their daily tasks and boost productivity. The project includes features for adding, editing, and tracking tasks with a clean dashboard.",
     "live": "#",
-    "github": "hsgsgsh",
+    "github": "https://github.com/imanee11/last-dance-imane-el-ouannane",
     "images": ["task", "task2", "task3", "task4"],
     "tools": ["HTML", "Laravel", "Tailwind CSS", "Breeze"],
     "features": [
@@ -44,7 +44,7 @@
     "date": 2025,
     "description": "A recipe sharing platform that showcases a variety of dishes with detailed instructions and beautiful imagery.",
     "live": "#",
-    "github": "hsgsgsh",
+    "github": "https://github.com/imanee11/JavaScript_DOM_Final_Project_ImaneElOuannane",
     "images": ["yummy", "yummy2", "yummy3", "yummy4", "yummy5"],
     "tools": ["HTML", "SASS", "JavaScript", "Bootstrap"],
     "features": [
@@ -63,7 +63,7 @@
     "date": 2024,
     "description": "A modern website for a restaurant, featuring an elegant menu, booking form, and a photo gallery. The design is clean and responsive, providing a professional and inviting online presence.",
     "live": "#",
-    "github": "hsgsgsh",
+    "github": "https://github.com/imanee11/imane-el-ouannane---final-project",
     "images": ["restaurant", "restaurant2", "restaurant3", "restaurant4", "restaurant5"],
     "tools": ["HTML", "SASS", "Bootstrap", "CSS"],
     "features": [
@@ -81,8 +81,8 @@
     "for": "Client Project",
     "date": 2025,
     "description": "A professional portfolio website for a client named Imane. The site is designed to showcase her work in a minimalist and clean layout, highlighting her projects and skills effectively.",
-    "live": "#",
-    "github": "hsgsgsh",
+    "live": "https://imanemagada.netlify.app/",
+    "github": "#",
     "images": ["imane", "imane2", "imane3"],
     "tools": ["HTML", "React JS", "Tailwind CSS"],
     "features": [
@@ -100,7 +100,7 @@
     "date": 2023,
     "description": "A travel blog-style website dedicated to showcasing the beauty and culture of Morocco. The site features a gallery of photos and details about popular destinations.",
     "live": "#",
-    "github": "hsgsgsh",
+    "github": "#",
     "images": ["mor", "mor2"],
     "tools": ["HTML", "CSS"],
     "features": [
