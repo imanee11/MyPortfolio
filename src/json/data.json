@@ -2,49 +2,114 @@
   {
     "id": 1,
     "title": "Fashe",
-    "date" : 2024,
-    "for" : "Training Project",
+    "date": 2024,
+    "for": "Training Project",
+    "description": "A stylish e-commerce platform designed to offer a seamless shopping experience with a clean and modern user interface.",
+    "live": "jj",
+    "github": "hsgsgsh",
     "images": ["fashe", "fashe2", "fashe3", "fashe4", "fashe5", "fashe6", "fashe7"],
-    "tools": ["HTML", "React JS", "JavaScript", "Tailwind CSS"]
+    "tools": ["HTML", "React JS", "JavaScript", "Tailwind CSS"],
+    "features": [
+      "Responsive Design",
+      "Dynamic Product Gallery",
+      "User-friendly Cart",
+      "Modern UI/UX",
+      "Scalable Component Architecture",
+      "Smooth Animations"
+    ]
   },
-    {
+  {
     "id": 2,
     "title": "Task Manager",
-    "for" : "Personal Project",
-    "date" : 2025,
+    "for": "Personal Project",
+    "date": 2025,
+    "description": "A full-stack task management application that helps users organize their daily tasks and boost productivity. The project includes features for adding, editing, and tracking tasks with a clean dashboard.",
+    "live": "#",
+    "github": "hsgsgsh",
     "images": ["task", "task2", "task3", "task4"],
-    "tools": ["HTML", "Laravel", "Tailwind CSS", "Breeze"]
+    "tools": ["HTML", "Laravel", "Tailwind CSS", "Breeze"],
+    "features": [
+      "CRUD operations for tasks",
+      "User Authentication",
+      "Responsive Layout",
+      "Data Persistence",
+      "Real-time Updates",
+      "Intuitive Dashboard"
+    ]
   },
-    {
+  {
     "id": 3,
     "title": "Yummy",
-    "for" : "Training Project",
-    "date" : 2025,
+    "for": "Training Project",
+    "date": 2025,
+    "description": "A recipe sharing platform that showcases a variety of dishes with detailed instructions and beautiful imagery.",
+    "live": "#",
+    "github": "hsgsgsh",
     "images": ["yummy", "yummy2", "yummy3", "yummy4", "yummy5"],
-    "tools": ["HTML", "SASS", "JavaScript", "Bootstrap"]
+    "tools": ["HTML", "SASS", "JavaScript", "Bootstrap"],
+    "features": [
+      "Search and Filter Recipes",
+      "Recipe Details View",
+      "Responsive Layout",
+      "Interactive Gallery",
+      "Custom Animations",
+      "Content-focused Design"
+    ]
   },
   {
     "id": 4,
     "title": "Restaurant",
-    "for" : "Training Project",
-    "date" : 2024,
+    "for": "Training Project",
+    "date": 2024,
+    "description": "A modern website for a restaurant, featuring an elegant menu, booking form, and a photo gallery. The design is clean and responsive, providing a professional and inviting online presence.",
+    "live": "#",
+    "github": "hsgsgsh",
     "images": ["restaurant", "restaurant2", "restaurant3", "restaurant4", "restaurant5"],
-    "tools": ["HTML", "SASS", "Bootstrap", "CSS"]
+    "tools": ["HTML", "SASS", "Bootstrap", "CSS"],
+    "features": [
+      "Menu Display",
+      "Reservation Form",
+      "Photo Gallery",
+      "Responsive Layout",
+      "Contact Information",
+      "SEO Friendly"
+    ]
   },
   {
     "id": 5,
     "title": "Imane Portfolio",
-    "for" : "Client Project",
-    "date" : 2025,
+    "for": "Client Project",
+    "date": 2025,
+    "description": "A professional portfolio website for a client named Imane. The site is designed to showcase her work in a minimalist and clean layout, highlighting her projects and skills effectively.",
+    "live": "#",
+    "github": "hsgsgsh",
     "images": ["imane", "imane2", "imane3"],
-    "tools": ["HTML", "React JS", "Tailwind CSS"]
+    "tools": ["HTML", "React JS", "Tailwind CSS"],
+    "features": [
+      "Customizable Sections",
+      "Dynamic Routing",
+      "Light/Dark Mode Toggle",
+      "Responsive Design",
+      "Optimized Performance"
+    ]
   },
   {
     "id": 6,
     "title": "Morocco",
-    "for" : "Personal Project",
-    "date" : 2023,
+    "for": "Personal Project",
+    "date": 2023,
+    "description": "A travel blog-style website dedicated to showcasing the beauty and culture of Morocco. The site features a gallery of photos and details about popular destinations.",
+    "live": "#",
+    "github": "hsgsgsh",
     "images": ["mor", "mor2"],
-    "tools": ["HTML", "CSS"]
+    "tools": ["HTML", "CSS"],
+    "features": [
+      "Photo Gallery",
+      "Informative Blog Posts",
+      "Simple Navigation",
+      "Clean UI",
+      "Mobile-First Approach",
+      "Fast Loading Times"
+    ]
   }
 ]

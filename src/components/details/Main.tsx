@@ -9,6 +9,7 @@ import { BsArrowLeft } from 'react-icons/bs';
 import SkeletonLoader from '../home/animation/SkeletonLoader';
 import image from '../../constants/image';
 import { FiMoon, FiSun } from 'react-icons/fi';
+import { IoMdClose } from 'react-icons/io';
 
 
 const Main = () => {
@@ -16,9 +17,10 @@ const Main = () => {
 
   const { id } = useParams();
   const navigate = useNavigate();
-  // const { darkMode } = useContext(DarkModeContext);
   const [loadedImages, setLoadedImages] = useState<Set<number>>(new Set());
   const [selectedImage, setSelectedImage] = useState(0);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalImage, setModalImage] = useState('');
 
   const project = projects.find((p) => p.id === parseInt(id || '0'));
 
@@ -31,6 +33,16 @@ const Main = () => {
   const isImageLoaded = useCallback((imageIndex: number) => {
     return loadedImages.has(imageIndex);
   }, [loadedImages]);
+
+  const openModal = (imgSrc: string) => {
+    setModalImage(imgSrc);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+    setModalImage('');
+  };
 
   useEffect(() => {
     if (darkMode) {
@@ -108,12 +120,11 @@ const Main = () => {
           </div>
 
           <p className="text-[#424550] dark:text-[#C7C6D3] leading-relaxed max-w-3xl">
-            This project showcases modern web development techniques with a focus on user experience and performance. Built with cutting-edge technologies to deliver a seamless and engaging interface.
+            {/* This project showcases modern web development techniques with a focus on user experience and performance. Built with cutting-edge technologies to deliver a seamless and engaging interface. */}
+            {project.description}
           </p>
         </div>
 
-        {/* Main Image Gallery */}
- 
 
         {/* All Images Grid */}
         <div className="mb-12">
@@ -123,7 +134,7 @@ const Main = () => {
               <div
                 key={index}
                 className="relative rounded-2xl overflow-hidden bg-gray-100 dark:bg-gray-800 cursor-pointer hover:scale-105 transition-transform duration-300"
-                onClick={() => setSelectedImage(index)}
+                onClick={() => openModal(image[img])}
               >
                 <div className="relative w-full h-64">
                   {!isImageLoaded(index + 100) && (
@@ -135,7 +146,7 @@ const Main = () => {
                   <img
                     src={image[img]}
                     alt={`${project.title} - Gallery ${index + 1}`}
-                    className={`w-full h-full object-cover transition-opacity duration-500 ${!isImageLoaded(index + 100) ? 'opacity-0' : 'opacity-100'}`}
+                    className={`w-full object-top transition-opacity duration-500 ${!isImageLoaded(index + 100) ? 'opacity-0' : 'opacity-100'}`}
                     onLoad={() => handleImageLoad(index + 100)}
                     onError={() => handleImageLoad(index + 100)}
                   />
@@ -157,17 +168,104 @@ const Main = () => {
         {/* Project Details Grid */}
         <div className="grid md:grid-cols-2 gap-12 mb-12">
           {/* Technologies */}
+          <div>
+            <p className='pt-10 pb-5 md:text-[22px] text-[20px] font-bold text-[#22232C] dark:text-[#E9E9F1]'>Technologies Used</p>
 
+            <div className="flex flex-wrap gap-3">
+              {project.tools.map((tool, index) => (
+                <div key={index} className='cursor-pointer flex items-center gap-2 border border-[#d2d6e1] dark:border-[#303033] text-[#424550] dark:text-[#C7C6D3] text-[13px] font-bold rounded-3xl px-4 py-2 w-fit'>
+                  <p>{tool}</p>
+                </div>
+
+              ))}
+            </div>
+          </div>
 
           {/* Project Links */}
+          <div>
+            <p className='pt-10 pb-5 md:text-[22px] text-[20px] font-bold text-[#22232C] dark:text-[#E9E9F1]'>Project Links</p>
 
+            <div className="flex flex-col gap-4">
+              <a
+                href="#"
+                className="flex items-center gap-3 px-8 py-3 rounded-full bg-gradient-to-r from-[#aa70e0] to-[#7059e2] dark:bg-gradient-to-r dark:from-[#E4B8BF] dark:to-[#CEC4EF] text-[#E9E9F1] dark:text-[#22232c] font-semibold hover:scale-105 transition-transform duration-300 shadow-md hover:opacity-90 w-fit"
+              >
+                <HiExternalLink size={20} />
+                View Live Project
+              </a>
+              <a
+                href="#"
+                className="flex items-center gap-3 px-8 py-3 rounded-full bg-transparent border-2 border-[#d2d6e1] dark:border-[#303033] text-[#424550] dark:text-[#C7C6D3] font-semibold hover:scale-105 transition-transform duration-300 hover:opacity-90 w-fit"
+              >
+                <FaGithub size={20} />
+                View Source Code
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* Project Features */}
+        {/* <div className="mb-12">
+          <h3 className="text-2xl font-bold text-[#424550] dark:text-[#C7C6D3] mb-6">
+            Key Features
+          </h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {project.features.map((feature, index) => (
+              <div
+                key={index}
+                className="p-6 rounded-xl bg-white dark:bg-[#1a1a1a] border border-[#d2d6e1] dark:border-[#303033] hover:border-[#8f56cc]/30 dark:hover:border-[#E1BAC5]/30 transition-colors duration-300"
+              >
+                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-[#aa70e0] to-[#7059e2] dark:from-[#E4B8BF] dark:to-[#CEC4EF] flex items-center justify-center mb-3">
+                  <span className="text-white dark:text-[#22232c] font-bold text-sm">
+                    {index + 1}
+                  </span>
+                </div>
+                <p className="font-semibold text-[#424550] dark:text-[#C7C6D3]">
+                  {feature}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div> */}
 
         {/* Navigation to Other Projects */}
+        <div className="border-t border-[#d2d6e1] dark:border-[#303033] py-12">
+          <h3 className="text-2xl font-bold text-[#424550] dark:text-[#C7C6D3] mb-8 text-center">
+            Explore More Projects
+          </h3>
+          <div className="flex justify-center">
+            <button
+              onClick={() => navigate('/')}
+              className="flex items-center gap-2 px-8 py-4 rounded-full bg-transparent text-[#717586] hover:text-[#22232c] dark:hover:text-[#E9E9F1] font-semibold transition-transform duration-300"
+            >
+              <IoArrowBack size={20} />
+              Back to Portfolio
+            </button>
+          </div>
+        </div>
 
       </div>
+
+      {/* Image Modal */}
+      {modalOpen && (
+        <div
+          className="fixed inset-0 z-[100] bg-black bg-opacity-90 flex items-center justify-center p-4"
+          onClick={closeModal}
+        >
+          <button
+            onClick={closeModal}
+            className="absolute top-4 right-4 text-white hover:text-gray-400 transition-colors duration-300"
+            title="Close"
+          >
+            <IoMdClose size={40} />
+          </button>
+          <img
+            src={modalImage}
+            alt="Full-screen view"
+            className="max-w-full max-h-full object-contain object-cover"
+          />
+        </div>
+      )}
     </div>
   );
 };

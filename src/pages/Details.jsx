@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from '../components/details/Main';
 import SideBar from '../components/home/SideBar';
+import Footer from '../components/home/Footer';
 
 const Details = () => {
     return (
@@ -13,6 +14,7 @@ const Details = () => {
                     <SideBar />
                     <div className="md:flex-1 md:ml-[26vw]">
                         <Main />
+                        <Footer/>
                     </div>
                 </div>
             </div>
