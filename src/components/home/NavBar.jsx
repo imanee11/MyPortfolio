@@ -127,9 +127,11 @@ const NavBar = () => {
                 </button>
 
                 {/* Let's Talk Button */}
-                <button className="p-3 rounded-2xl bg-gradient-to-r from-[#aa70e0] to-[#7059e2] dark:from-[#E4B8BF] dark:to-[#CEC4EF] text-white dark:text-[#22232c]">
-                    <BiMessageDots size={16} />
-                </button>
+                <a href="mailto:imaneelouannane@gmail.com">
+                    <button className="p-3 rounded-2xl bg-gradient-to-r from-[#aa70e0] to-[#7059e2] dark:from-[#E4B8BF] dark:to-[#CEC4EF] text-white dark:text-[#22232c]">
+                        <BiMessageDots size={16} />
+                    </button>
+                </a>
             </div>
         </>
     );

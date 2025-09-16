@@ -141,7 +141,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
                     {/* Details Section */}
                     <div className="bg-[#141414] w-[90vw] sm:w-[50vw] p-4 sm:p-5 rounded-2xl sm:rounded-3xl">
                         <div className="space-y-3">
-                            <div className='flex items-center gap-4 text-[#FFFFFF]'>
+                            <div className='flex flex-wrap gap-2 items-center md:gap-4 text-[#FFFFFF]'>
                                 <p className="text-[#FFFFFF] text-[20px] sm:text-[24px] font-bold">{project.title}</p>
                                 <div className='text-[12px] flex gap-2 bg-clip-text text-transparent bg-gradient-light dark:bg-gradient-dark'>
                                     (
@@ -183,7 +183,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
                                     <a
                                         href={project.github}
                                         target="_blank"
-                                        className="flex items-center gap-2 px-4 py-2 border border-[#FFFFFF] hover:bg-[#FFFFFF] text-[#FFFFFF]/50 hover:text-[#141414] rounded-lg transition-colors font-semibold text-sm sm:text-base"
+                                        className="flex items-center gap-2 px-4 py-2 border border-[#FFFFFF66] hover:bg-[#FFFFFF] text-[#FFFFFF]/50 hover:text-[#141414] rounded-lg transition-colors font-semibold text-sm sm:text-base"
                                     >
                                         <FiGithub />
                                         Source Code
