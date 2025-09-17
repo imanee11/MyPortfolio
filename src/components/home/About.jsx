@@ -41,7 +41,7 @@ const About = () => {
                         transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
                         viewport={{ once: false }}
                     >
-                        <p className='text-[60px] font-bold bg-clip-text text-transparent bg-gradient-light dark:bg-gradient-dark'>06+</p>
+                        <p className='text-[60px] font-bold bg-clip-text text-transparent bg-gradient-light dark:bg-gradient-dark'>08+</p>
                         <p className='text-[#22232c] dark:text-[#E9E9F1] font-bold'>Months of Experience</p>
                     </motion.div>
                     <motion.div
@@ -51,7 +51,7 @@ const About = () => {
                         transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
                         viewport={{ once: false }}
                     >
-                        <p className='text-[60px] font-bold bg-clip-text text-transparent bg-gradient-light dark:bg-gradient-dark'>06+</p>
+                        <p className='text-[60px] font-bold bg-clip-text text-transparent bg-gradient-light dark:bg-gradient-dark'>07+</p>
                         <p className='text-[#22232c] dark:text-[#E9E9F1] font-bold'>Project Completed</p>
                     </motion.div>
                     <motion.div
@@ -95,7 +95,7 @@ const About = () => {
                         </div>
                         <div>
                             <p className='text-[#424550] dark:text-[#C7C6D3] text-[13px]'>Phone</p>
-                            <p className='text-[#22232c] dark:text-[#E9E9F1] font-bold'>123456789</p>
+                            <p className='text-[#22232c] dark:text-[#E9E9F1] font-bold'>0633149429</p>
                         </div>
                         <div>
                             <p className='text-[#424550] dark:text-[#C7C6D3] text-[13px]'>Email</p>
