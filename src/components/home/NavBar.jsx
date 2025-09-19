@@ -26,7 +26,7 @@ const NavBar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['home', 'portfolio', 'aboutme', 'resume', 'contact'];
+            const sections = ['home', 'projects', 'aboutme', 'resume', 'contact'];
             const scrollY = window.scrollY;
 
             for (let id of sections) {
@@ -59,7 +59,7 @@ const NavBar = () => {
             {/* ✅ Desktop NavBar */}
             <nav className='hidden lg:flex fixed top-[5vh] left-[30vw] right-[5vw] z-50 justify-between items-center font-syne'>
                 <ul className="flex gap-3 font-semibold">
-                    {['Home', 'Portfolio', 'About Me', 'Resume', 'Contact'].map((item, index) => {
+                    {['Home', 'About Me', 'Projects', 'Resume', 'Contact'].map((item, index) => {
                         const id = item.toLowerCase().replace(/\s+/g, '');
                         const isActive = activeSection === id;
 
@@ -97,8 +97,8 @@ const NavBar = () => {
             <div className="lg:hidden fixed bottom-4 left-5 right-5 bg-transparent backdrop-blur-[20px] dark:bg-[#1a1a1a]/60 rounded-full flex justify-around items-center z-40 px-2 py-2">
                 {[
                     { icon: BiHomeAlt, id: 'home' },
-                    { icon: BiBriefcase, id: 'portfolio' },
                     { icon: BiUser, id: 'aboutme' },
+                    { icon: BiBriefcase, id: 'projects' },
                     { icon: BiFile, id: 'resume' },
                     { icon: BiPhone, id: 'contact' }
                 ].map(({ icon: Icon, id }, i) => {

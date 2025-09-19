@@ -77,25 +77,26 @@ const Home = () => {
                     {/* </motion.div> */}
                     {/* <motion.div variants={sectionVariants}> */}
                     <Hero />
+                    <About />
                     {/* </motion.div> */}
                     {/* <motion.div variants={sectionVariants}> */}
                     <Portfolio />
                     {/* </motion.div> */}
-                    <motion.div variants={sectionVariants}>
-                        <About />
-                    </motion.div>
-                    <motion.div variants={sectionVariants}>
-                        <Resume />
-                    </motion.div>
-                    <motion.div variants={sectionVariants}>
-                        <Contact />
-                    </motion.div>
-                    <motion.div variants={sectionVariants}>
-                        <Footer />
-                    </motion.div>
-                </div>
-            </motion.div>
-        </motion.div>
+                    {/* <motion.div variants={sectionVariants}> */}
+                    
+                    {/* </motion.div> */}
+                    {/* <motion.div variants={sectionVariants}> */}
+                    <Resume />
+                    {/* </motion.div> */}
+                    {/* <motion.div variants={sectionVariants}> */}
+                    <Contact />
+                    {/* </motion.div> */}
+                    {/* <motion.div variants={sectionVariants}> */}
+                    <Footer />
+                    {/* // </motion.div> */}
+        </div>
+            </motion.div >
+        </motion.div >
     );
 };
 

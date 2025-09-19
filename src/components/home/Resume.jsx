@@ -57,16 +57,26 @@ const Resume = () => {
                 <div>
                     {/* 1 */}
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
-                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">2020 - 2021</p>
+                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">Mai 2025 - Présent</p>
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
-                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Baccalauréat in Physical Sciences </span>
+                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Full-stack web development bootcamp </span>
                             at
-                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Abi Chouaib Doukkali </span>
-                            High School
+                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Geeks Institute </span>
+                            {/* Mixed Center */}
                         </p>
                     </motion.div>
 
                     {/* 2 */}
+                    <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
+                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">May - Nov 2024</p>
+                        <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
+                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>6 month training in web development </span>
+                            at
+                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Lions Geek </span>
+                        </p>
+                    </motion.div>
+
+                    {/* 3 */}
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
                         <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">2021 - 2023</p>
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
@@ -77,24 +87,14 @@ const Resume = () => {
                         </p>
                     </motion.div>
 
-                    {/* 3 */}
-                    <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
-                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">May - Nov 2024</p>
-                        <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
-                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>6 month training in web development </span>
-                            at
-                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Lions Geek </span>
-                        </p>
-                    </motion.div>
-
                     {/* 4 */}
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
-                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">Mai 2025 - Présent</p>
+                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">2020 - 2021</p>
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
-                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Full-stack web development bootcamp </span>
+                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Baccalauréat in Physical Sciences </span>
                             at
-                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Geeks Institute </span>
-                            {/* Mixed Center */}
+                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Abi Chouaib Doukkali </span>
+                            High School
                         </p>
                     </motion.div>
                 </div>
@@ -112,22 +112,22 @@ const Resume = () => {
                 <div>
                     {/* 1 */}
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
+                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">Mai 2025 - Présent</p>
+                        <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
+                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Developing real projects during training </span>
+                            at
+                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Geeks Institute</span>
+                        </p>
+                    </motion.div>
+
+                    {/* 2 */}
+                    <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
                         <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">May - Nov 2024</p>
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
                             <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Working on projects during the training </span>
                             at
                             <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Lions Geek </span>
                             throughout the 6 months
-                        </p>
-                    </motion.div>
-
-                    {/* 2 */}
-                    <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
-                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">Mai 2025 - Présent</p>
-                        <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
-                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Developing real projects during training </span>
-                            at
-                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Geeks Institute</span>
                         </p>
                     </motion.div>
                 </div>
@@ -139,7 +139,7 @@ const Resume = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7 }}
                     viewport={{ once: false }}
-                >My favourite tools</motion.p>
+                >My Skills</motion.p>
 
                 <div className='flex flex-wrap items-center justify-between gap-x-2 gap-y-4'>
                     {/* html */}

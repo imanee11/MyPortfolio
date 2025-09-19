@@ -76,9 +76,9 @@ const About = () => {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         viewport={{ once: false }}
                     >
-                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[20px]'>This is Imane El Ouannane, A creative and passionate web developer who loves turning ideas into responsive and user-friendly websites. With a focus on clean code and sleek design.</p>
-                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[20px] pt-2'>I have been working with web technologies for more than 2 years.</p>
-                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[20px]'>Over these years, I've gained valuable experience in creating full websites and applications from scratch.</p>
+                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[18px]'>This is <span className='font-bold'>Imane El Ouannane</span>, A creative and passionate <span className='font-bold'>web developer</span> who loves turning ideas into responsive and user-friendly websites. With a focus on clean code and sleek design.</p>
+                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[18px] pt-2'>I have been working with web technologies for more than <span className='font-bold'>2 years</span>.</p>
+                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[18px]'>Over these years, I've gained valuable experience in creating full websites and applications from scratch.</p>
                     </motion.div>
 
                     {/* right */}

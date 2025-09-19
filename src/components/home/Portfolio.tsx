@@ -52,7 +52,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div id="portfolio" className="font-syne flex flex-col pt-[10vh]">
+    <div id="projects" className="font-syne flex flex-col pt-[10vh]">
       <>
         <motion.div
           className="flex items-center gap-2 border border-[#d2d6e1] dark:border-[#303033] bg-[#E6EBF4] dark:bg-[#111111] text-[#424550] dark:text-[#C7C6D3] text-[13px] font-bold rounded-3xl px-4 py-2 w-fit"
@@ -62,7 +62,7 @@ const Portfolio = () => {
           viewport={{ once: false }}
         >
           <BsStars />
-          <p>Portfolio</p>
+          <p>Projects</p>
         </motion.div>
 
         <motion.div
@@ -83,7 +83,8 @@ const Portfolio = () => {
             <motion.div
               key={project.id}
               className="relative rounded-3xl overflow-hidden w-full md:w-[48%] mb-6 transform-gpu cursor-pointer group hover:scale-[1.02] transition-all duration-300"
-              onClick={() => openModal(project)}
+              // onClick={() => openModal(project)}
+              onClick={() => navigate(`/details/${project.id}`)}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{
