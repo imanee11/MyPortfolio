@@ -95,6 +95,26 @@ const Main = () => {
         </div>
       </nav>
 
+      {/* ✅ Mobile Bottom NavBar */}
+      <div className="lg:hidden fixed bottom-4 left-5 right-5 bg-transparent backdrop-blur-[20px] dark:bg-[#1a1a1a]/60 rounded-full flex justify-around items-center z-40 px-2 py-2">
+        {/* Back Button */}
+        <button
+          onClick={() => navigate('/')}
+          className="p-3 rounded-2xl text-[#717586] dark:text-[#E9E9F1] hover:bg-[#e0e0e0]/20 dark:hover:bg-[#ffffff1a] transition"
+        >
+          <IoArrowBack size={16} />
+        </button>
+
+        {/* Dark Mode Toggle */}
+        <button
+          onClick={() => setDarkMode(!darkMode)}
+          className="p-3 rounded-2xl text-[#717586] dark:text-[#E9E9F1] hover:bg-[#e0e0e0]/20 dark:hover:bg-[#ffffff1a] transition"
+        >
+          {darkMode ? <FiSun size={16} /> : <FiMoon size={16} />}
+        </button>
+      </div>
+
+
       <div className="md:pt-[20vh]">
         {/* Project Title & Info */}
         <div>
