@@ -77,7 +77,7 @@ const Main = () => {
     <div className="font-syne">
 
       {/* Header */}
-      <nav className="md:flex fixed top-[5vh] left-[30vw] right-[5vw] z-50 justify-between items-center font-syne">
+      <nav className="hidden lg:flex fixed top-[5vh] md:left-[30vw] left-[5vw] right-[5vw] z-50 justify-between items-center font-syne">
         <div className=''>
           <button onClick={() => navigate('/')} className="flex items-center gap-2 cursor-pointer transition duration-300 bg-transparent backdrop-blur-[5px] rounded-3xl px-4 py-3 font-semibold text-[#717586] hover:text-[#22232c] dark:hover:text-[#E9E9F1]">
             <IoArrowBack size={20} />
