@@ -14,7 +14,14 @@ const SideBar = () => {
 
     return (
         // EBF0F7
-        <nav className="bg-[#EBF0F7] dark:bg-[#161616] border border-[#d2d6e1] dark:border-[#303033] rounded-3xl min-h-[90vh]  md:w-[23vw] w-full  p-5 md:fixed md:top-1/2 md:transform md:-translate-y-1/2 flex flex-col justify-center font-syne">
+        <nav className="bg-[#EBF0F7] dark:bg-[#161616] border border-[#d2d6e1] dark:border-[#303033] rounded-3xl
+    md:min-h-[90vh] min-h-auto  /* desktop vs mobile */
+    md:w-[23vw] w-full
+    p-5
+    md:fixed md:top-1/2 md:transform md:-translate-y-1/2
+    flex flex-col md:justify-center justify-start font-syne
+    md:overflow-visible overflow-auto
+">
             {/* logo */}
             <div className="mb-4">
                 <p className="font-bold text-center text-[#22232c] dark:text-[#E9E9F1]">Imane El Ouannane</p>
