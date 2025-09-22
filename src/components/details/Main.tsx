@@ -209,7 +209,7 @@ const Main = () => {
               {project.live !== '#' && (
 
                 <a
-                  href="#"
+                  href={project.live}
                   className="flex items-center gap-3 px-8 py-3 rounded-full bg-gradient-to-r from-[#aa70e0] to-[#7059e2] dark:bg-gradient-to-r dark:from-[#E4B8BF] dark:to-[#CEC4EF] text-[#E9E9F1] dark:text-[#22232c] font-semibold hover:scale-105 transition-transform duration-300 shadow-md hover:opacity-90 w-fit"
                 >
                   <HiExternalLink size={20} />
@@ -220,7 +220,7 @@ const Main = () => {
 
               {project.github !== '#' && (
                 <a
-                  href="#"
+                  href={project.github}
                   className="flex items-center gap-3 px-8 py-3 rounded-full bg-transparent border-2 border-[#d2d6e1] dark:border-[#303033] text-[#424550] dark:text-[#C7C6D3] font-semibold hover:scale-105 transition-transform duration-300 hover:opacity-90 w-fit"
                 >
                   <FaGithub size={20} />
