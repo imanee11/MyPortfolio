@@ -43,7 +43,7 @@
     "for": "Training Project",
     "date": 2025,
     "description": "A recipe sharing platform that showcases a variety of dishes with detailed instructions and beautiful imagery. This project highlights a focus on rich content presentation and a delightful user experience.",
-    "live": "#",
+    "live": "https://yummyprj.netlify.app/",
     "github": "https://github.com/imanee11/JavaScript_DOM_Final_Project_ImaneElOuannane",
     "images": ["yummy", "yummy2", "yummy3", "yummy4", "yummy5"],
     "tools": ["HTML", "SASS", "JavaScript", "Bootstrap"],
