@@ -56,7 +56,7 @@ const NavBar = () => {
 
     return (
         <>
-            {/* ✅ Desktop NavBar */}
+            {/* Desktop NavBar */}
             <nav className='hidden lg:flex fixed top-[5vh] left-[30vw] right-[5vw] z-50 justify-between items-center font-syne'>
                 <ul className="flex gap-3 font-semibold">
                     {['Home', 'About Me', 'Projects', 'Resume', 'Contact'].map((item, index) => {
@@ -93,7 +93,7 @@ const NavBar = () => {
                 </div>
             </nav>
 
-            {/* ✅ Mobile Bottom NavBar */}
+            {/* Mobile Bottom NavBar */}
             <div className="lg:hidden fixed bottom-4 left-5 right-5 bg-transparent backdrop-blur-[20px] dark:bg-[#1a1a1a]/60 rounded-full flex justify-around items-center z-40 px-2 py-2">
                 {[
                     { icon: BiHomeAlt, id: 'home' },

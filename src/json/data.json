@@ -5,7 +5,7 @@
     "date": 2024,
     "for": "Training Project",
     "description": "A stylish e-commerce platform designed to offer a seamless shopping experience with a clean and modern user interface. This project focuses on responsive design and intuitive navigation to enhance user engagement.",
-    "live": "#",
+    "live": "https://fashee.netlify.app/",
     "github": "https://github.com/imanee11/final-project-react-Imane-El-Ouannnae",
     "images": ["fashe", "fashe2", "fashe3", "fashe4", "fashe5", "fashe6", "fashe7"],
     "tools": ["HTML", "React JS", "JavaScript", "Tailwind CSS"],
