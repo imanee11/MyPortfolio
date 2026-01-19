@@ -12,6 +12,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { SiNotion } from 'react-icons/si';
+import { RiSupabaseFill } from "react-icons/ri";
+
 
 import { motion } from "framer-motion";
 
@@ -141,7 +143,7 @@ const Resume = () => {
                     viewport={{ once: false }}
                 >My Skills</motion.p>
 
-                <div className='flex flex-wrap items-center justify-between gap-x-2 gap-y-4'>
+                <div className='flex flex-wrap items-center gap-x-2 gap-y-4'>
                     {/* html */}
                     <motion.div initial={{ opacity: 0, y: 50 }} viewport={{ once: false }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }} className="flex items-center justify-center bg-transparent border-[1px] md:w-[11.5vw] w-[43vw] md:h-[24vh] h-[20vh] p-6 rounded-3xl border-[#d1d5e0] dark:border-[#303033] transition duration-300 cursor-pointer">
                         <div className="flex flex-col justify-center items-center gap-2">
@@ -206,19 +208,27 @@ const Resume = () => {
                         </div>
                     </motion.div>
 
-                    {/* gitHub */}
-                    <motion.div initial={{ opacity: 0, y: 50 }} viewport={{ once: false }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }} className="flex items-center justify-center bg-transparent border-[1px] md:w-[11.5vw] w-[43vw] md:h-[24vh] h-[20vh] p-6 rounded-3xl border-[#d1d5e0] dark:border-[#303033] transition duration-300 cursor-pointer">
-                        <div className="flex flex-col justify-center items-center gap-2">
-                            <FaGithub className="md:text-[70px] text-[60px] text-[#111] dark:text-[#3e3e3e]" />
-                            <p className='text-[#22232C] dark:text-[#E9E9F1] text-[16px] font-bold'>GitHub</p>
-                        </div>
-                    </motion.div>
-
                     {/* mysql */}
                     <motion.div initial={{ opacity: 0, y: 50 }} viewport={{ once: false }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }} className="flex items-center justify-center bg-transparent border-[1px] md:w-[11.5vw] w-[43vw] md:h-[24vh] h-[20vh] p-6 rounded-3xl border-[#d1d5e0] dark:border-[#303033] transition duration-300 cursor-pointer">
                         <div className="flex flex-col justify-center items-center gap-2">
                             <GrMysql className="md:text-[70px] text-[60px] text-[#00618a]" />
                             <p className='text-[#22232C] dark:text-[#E9E9F1] text-[16px] font-bold'>MySql</p>
+                        </div>
+                    </motion.div>
+
+                    {/* supabase */}
+                    <motion.div initial={{ opacity: 0, y: 50 }} viewport={{ once: false }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }} className="flex items-center justify-center bg-transparent border-[1px] md:w-[11.5vw] w-[43vw] md:h-[24vh] h-[20vh] p-6 rounded-3xl border-[#d1d5e0] dark:border-[#303033] transition duration-300 cursor-pointer">
+                        <div className="flex flex-col justify-center items-center gap-2">
+                            <RiSupabaseFill className="md:text-[70px] text-[60px] text-[#34B27B]" />
+                            <p className='text-[#22232C] dark:text-[#E9E9F1] text-[16px] font-bold'>Supabase</p>
+                        </div>
+                    </motion.div>
+
+                    {/* gitHub */}
+                    <motion.div initial={{ opacity: 0, y: 50 }} viewport={{ once: false }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }} className="flex items-center justify-center bg-transparent border-[1px] md:w-[11.5vw] w-[43vw] md:h-[24vh] h-[20vh] p-6 rounded-3xl border-[#d1d5e0] dark:border-[#303033] transition duration-300 cursor-pointer">
+                        <div className="flex flex-col justify-center items-center gap-2">
+                            <FaGithub className="md:text-[70px] text-[60px] text-[#111] dark:text-[#3e3e3e]" />
+                            <p className='text-[#22232C] dark:text-[#E9E9F1] text-[16px] font-bold'>GitHub</p>
                         </div>
                     </motion.div>
 
