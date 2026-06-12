@@ -11,7 +11,7 @@ import { FaLaravel } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
-import { SiNotion } from 'react-icons/si';
+import { SiNotion, SiClaude } from 'react-icons/si';
 import { RiSupabaseFill } from "react-icons/ri";
 
 
@@ -114,6 +114,16 @@ const Resume = () => {
                 <div>
                     {/* 1 */}
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
+                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">Nov 2025 - Present</p>
+                        <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
+                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Web Developer </span>
+                            at
+                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Société DIGITAL NOVA</span>
+                        </p>
+                    </motion.div>
+
+                    {/* 2 */}
+                    <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
                         <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">May - Dec 2025</p>
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
                             <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Developing real projects during training </span>
@@ -122,7 +132,7 @@ const Resume = () => {
                         </p>
                     </motion.div>
 
-                    {/* 2 */}
+                    {/* 3 */}
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
                         <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">May - Nov 2024</p>
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
@@ -240,6 +250,13 @@ const Resume = () => {
                         </div>
                     </motion.div>
 
+                    {/* Claude */}
+                    <motion.div initial={{ opacity: 0, y: 50 }} viewport={{ once: false }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }} className="flex items-center justify-center bg-transparent border-[1px] md:w-[11.5vw] w-[43vw] md:h-[24vh] h-[20vh] p-6 rounded-3xl border-[#d1d5e0] dark:border-[#303033] transition duration-300 cursor-pointer">
+                        <div className="flex flex-col justify-center items-center gap-2">
+                            <SiClaude className="md:text-[70px] text-[60px] text-[#D97757]" />
+                            <p className='text-[#22232C] dark:text-[#E9E9F1] text-[16px] font-bold'>Claude AI</p>
+                        </div>
+                    </motion.div>
                 </div>
             </div>
         </>
