@@ -118,7 +118,7 @@ const Resume = () => {
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
                             <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Web Developer </span>
                             at
-                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Société DIGITAL NOVA</span>
+                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> DIGITAL NOVA</span>
                         </p>
                     </motion.div>
 
