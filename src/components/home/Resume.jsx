@@ -59,7 +59,19 @@ const Resume = () => {
                 <div>
                     {/* 1 */}
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
-                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">May - Dec 2025</p>
+                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">Oct 2026 - Present</p>
+                        <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
+                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Professional Bachelor’s in Cybersecurity, Cloud Computing & AI </span>
+                            at
+                            <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> ENSAM Casablanca </span>
+                            {/* Mixed Center */}
+                        </p>
+                    </motion.div>
+
+
+                    {/* 1 */}
+                    <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
+                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">May - Oct 2025</p>
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
                             <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Full-stack web development bootcamp </span>
                             at
@@ -82,7 +94,7 @@ const Resume = () => {
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
                         <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">2021 - 2023</p>
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
-                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Specialized Technician Diploma on Web Development </span>
+                            <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Specialized Technician Diploma in Web Development </span>
                             at
                             <span className='cursor-pointer md:text-[15px] text-[15px] text-[#22232C] dark:text-[#E9E9F1] font-bold'> Lalla Aicha </span>
                             Mixed Center
@@ -114,7 +126,7 @@ const Resume = () => {
                 <div>
                     {/* 1 */}
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }} viewport={{ once: false }} className="grid md:grid-cols-[15vw_1fr] grid-rows-1 border-b border-[#d1d5e0] dark:border-[#303033] md:py-10 py-8 gap-x-4 gap-y-2">
-                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">Nov 2025 - Present</p>
+                        <p className="md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]">Oct 2025 - Present</p>
                         <p className='md:text-[15px] text-[15px] text-[#424550] dark:text-[#C7C6D3]'>
                             <span className='md:text-[18px] text-[22px] text-[#22232C] dark:text-[#E9E9F1] font-bold'>Web Developer </span>
                             at
