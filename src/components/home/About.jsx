@@ -41,8 +41,8 @@ const About = () => {
                         transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
                         viewport={{ once: false }}
                     >
-                        <p className='text-[60px] font-bold bg-clip-text text-transparent bg-gradient-light dark:bg-gradient-dark'>11+</p>
-                        <p className='text-[#22232c] dark:text-[#E9E9F1] font-bold'>Months of Experience</p>
+                        <p className='text-[60px] font-bold bg-clip-text text-transparent bg-gradient-light dark:bg-gradient-dark'>1+</p>
+                        <p className='text-[#22232c] dark:text-[#E9E9F1] font-bold'>Year of Experience</p>
                     </motion.div>
                     <motion.div
                         className='md:w-[30%] w-full flex flex-col items-center justify-center px-5 py-7 rounded-3xl border border-[#d2d6e1] dark:border-[#303033] text-[#424550] dark:text-[#C7C6D3]'
@@ -52,7 +52,7 @@ const About = () => {
                         viewport={{ once: false }}
                     >
                         <p className='text-[60px] font-bold bg-clip-text text-transparent bg-gradient-light dark:bg-gradient-dark'>09+</p>
-                        <p className='text-[#22232c] dark:text-[#E9E9F1] font-bold'>Project Completed</p>
+                        <p className='text-[#22232c] dark:text-[#E9E9F1] font-bold'>Projects Completed</p>
                     </motion.div>
                     <motion.div
                         className='md:w-[30%] w-full flex flex-col items-center justify-center px-5 py-7 rounded-3xl border border-[#d2d6e1] dark:border-[#303033] text-[#424550] dark:text-[#C7C6D3]'
@@ -76,9 +76,9 @@ const About = () => {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         viewport={{ once: false }}
                     >
-                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[18px]'>This is <span className='font-bold'>Imane El Ouannane</span>, A creative and passionate <span className='font-bold'>web developer</span> who loves turning ideas into responsive and user-friendly websites. With a focus on clean code and sleek design.</p>
-                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[18px] pt-2'>I have been working with web technologies for more than <span className='font-bold'>2 years</span>.</p>
-                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[18px]'>Over these years, I've gained valuable experience in creating full websites and applications from scratch.</p>
+                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[18px]'>This is <span className='font-bold'>Imane El Ouannane</span>, a creative and passionate <span className='font-bold'>web developer</span> who loves turning ideas into responsive and user-friendly websites, with a focus on clean code and sleek design.</p>
+                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[18px] pt-2'>I have been working with web technologies for more than <span className='font-bold'>4 years</span>, building full websites and applications from scratch.</p>
+                        <p className='text-[#424550] dark:text-[#C7C6D3] text-[18px] pt-2'>Today, I also use AI tools like Claude to build faster, and I’m currently studying <span className='font-bold'>cybersecurity, cloud and AI</span> at ENSAM Casablanca.</p>
                     </motion.div>
 
                     {/* right */}

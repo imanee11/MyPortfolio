@@ -234,7 +234,7 @@ const Resume = () => {
                     <motion.div initial={{ opacity: 0, y: 50 }} viewport={{ once: false }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }} className="flex items-center justify-center bg-transparent border-[1px] md:w-[11.5vw] w-[43vw] md:h-[24vh] h-[20vh] p-6 rounded-3xl border-[#d1d5e0] dark:border-[#303033] transition duration-300 cursor-pointer">
                         <div className="flex flex-col justify-center items-center gap-2">
                             <GrMysql className="md:text-[70px] text-[60px] text-[#00618a]" />
-                            <p className='text-[#22232C] dark:text-[#E9E9F1] text-[16px] font-bold'>MySql</p>
+                            <p className='text-[#22232C] dark:text-[#E9E9F1] text-[16px] font-bold'>MySQL</p>
                         </div>
                     </motion.div>
 
@@ -266,7 +266,7 @@ const Resume = () => {
                     <motion.div initial={{ opacity: 0, y: 50 }} viewport={{ once: false }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }} className="flex items-center justify-center bg-transparent border-[1px] md:w-[11.5vw] w-[43vw] md:h-[24vh] h-[20vh] p-6 rounded-3xl border-[#d1d5e0] dark:border-[#303033] transition duration-300 cursor-pointer">
                         <div className="flex flex-col justify-center items-center gap-2">
                             <SiClaude className="md:text-[70px] text-[60px] text-[#D97757]" />
-                            <p className='text-[#22232C] dark:text-[#E9E9F1] text-[16px] font-bold'>Claude AI</p>
+                            <p className='text-[#22232C] dark:text-[#E9E9F1] text-[16px] font-bold'>Claude</p>
                         </div>
                     </motion.div>
                 </div>
